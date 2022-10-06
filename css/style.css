@@ -1,13 +1,4 @@
-/*
-  Theme Name: DevFolio
-  Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
 
-/*======================================
-//--//-->   STYLES GENERALES
-======================================*/
 
 body {
   background-color: #f5f5f5;
@@ -55,7 +46,7 @@ a:hover {
 .service-box,
 .work-box,
 .card-blog {
-  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 13px 8px -10px rgba(240, 25, 25, 0.1);
 }
 
 .box-shadow-a,
@@ -87,6 +78,12 @@ a:hover {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .overlay-mf {
@@ -223,7 +220,7 @@ a:hover {
 .socials .ico-circle:hover {
   background-color: #0078ff;
   color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
+  box-shadow: 0 0 0 3px #c8ff00;
   transition: all 500ms ease;
 }
 
@@ -714,13 +711,13 @@ a:hover {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #0078ff;
+  background-color: #fafafa1f;
   box-shadow: 0 0 0 10px #cde1f8;
 }
 
 .service-box .service-ico {
   margin-bottom: 1rem;
-  color: #1e1e1e;
+  color: #7c7a7a21;
 }
 
 .service-box .ico-circle {
